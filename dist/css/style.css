@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5b5b5;
+}
+
+.container {
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    background-color: #b5b5b5;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyLogo {
+    color: white;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.companyName {
+    margin: 20px 0px 0 15px ;
+    font-size: 42px;
+}
+
+.foundation {
+    margin: 0 0 0 18px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+    font-size: 13px;
+    padding-right: 35px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    outline-color: white;
+    transition: 0.15s;
+  }
+
+.button1 {
+    width: 110px;
+    height: 40px;
+    background: transparent;
+    border-color: white;
+    outline-style: auto;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.introP1 {
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 280px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.classButton {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button2 {
+    margin: 0 auto;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: #36b3a8;
+    margin-top: 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.arrowSymbol i {
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    bottom: 70px;
+    margin-left: 30vw;
+}
+
+.main {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    width: 66vw;
+}
+
+.mainP1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.mainP2 {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    font-size: 17px;
+    color: #979797;
+}
+
+.mainP3 {
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contactEmail {
+    color: #79b9c4;
+    cursor: pointer;
+}
+
+.imgContainer {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+img {
+    width: 430px;
+}
+
+.underPicture h3 {
+    text-align: center;
+    color: #36b3a8;
+    letter-spacing: 2px;
+}
+
+.underPicture p {
+    color: #979797;
+    text-align: center;
+    font-size: 18px;
+    width: 430px;
+}
+
+.underPicture a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #36b3a8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactIcons {
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+}
+
+.icons {
+    padding-top: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.bubble {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.bubble i {
+    position: relative;
+    top: 10px;
+    left: 9px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 100px;
+}
+
+.info {
+    margin-top: 60px;
+    color: white;
+    font-family:"Segoe UI";
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.producedBy {
+    text-align: center;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    color: #6b696a;
+    font-size: 18px;
+}
+
+.producedBy a {
+    color: #6b696a;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+
